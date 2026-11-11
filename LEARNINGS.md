@@ -30,4 +30,4 @@ Ahora bien con venv, necesitas correr pip para poder instalar paquetes en ese en
 
 ### Que aprendí hoy 
 
-- Apredí a crear, configurar y trabajar en ambientes de desarrollo, validar que algo funciona con comprobación. Un test es un eval en miniatura. Con agentes de código, tu trabajo es verificar. Vas a usar Claude Code desde la fase 2. Generar código se vuelve barato, y lo escaso pasa a ser saber si ese código es correcto. Sin tests, estás aceptando código que no puedes evaluar. Con tests, delegas con control.
+- Apredí a crear, configurar y trabajar en ambientes de desarrollo, validar que algo funciona con comprobación. Un test es un eval en miniatura. Con agentes de código, tu trabajo es verificar. Generar código se vuelve barato, y lo escaso pasa a ser saber si ese código es correcto. Sin tests, estás aceptando código que no puedes evaluar. Con tests, delegas con control.
