@@ -12,3 +12,15 @@ def test_valid_orders():
 
     #Comprobar
     assert valid == [{"user_id" : "1", "amount" : 200},{"user_id" : "3", "amount" : 100}]
+
+def test_valid_orders_error():
+    #preparar los datos 
+    orders = [{"user_id" : "1", "amount" : 200},{"user_id" : "2"}
+              ,{"user_id" : "3", "amount" : "abc"},{"user_id" : "4", "amount" : -5}]
+
+    #Ejecutar la función a testear 
+    valid = valid_orders(orders)
+
+    #Comprobar
+    assert valid == [{"user_id" : "1", "amount" : 200}]
+
